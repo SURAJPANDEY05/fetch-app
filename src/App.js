@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+// import axios from "axios";
+// import React, { useEffect, useState } from "react"
+// import Mongo from "./Mongo";
+// import Dataapi from "./Dataapi"
+import SecData from "./SecData";
 
-function App() {
+export default function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Mongo/> */}
+      <br />
+      <br />
+    {/* <Dataapi/> */}
+    <br />
+      <br />
+      <SecData/>
     </div>
   );
-}
+  }
 
-export default App;
+
+
+
+
+// //  const [users, setUsers] = useState([])
+
+//   const fetchUserData = () => {
+//     fetch("https://jsonplaceholder.typicode.com/users")
+//     .then((res) => res.json())
+//       .then((d) => setUsers(d))
+//   }
+
+//   useEffect(() => {
+//     fetchUserData()
+//   }, [])
+
+//   return (
+//     <div>
+//       {users.length >= 1 && (
+//         <ul>
+//           {users.map(user => (
+//             <li key={user.name}>{user.id}</li>
+//           ))}
+//         </ul>
+//       )}
