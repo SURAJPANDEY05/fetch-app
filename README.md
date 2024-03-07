@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+and this project user fetch the API data by using fetch() method in react .js 
 
 ## Available Scripts
 
